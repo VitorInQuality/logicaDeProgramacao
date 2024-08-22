@@ -2,7 +2,7 @@ package logicaProgramacao.variaveis;
 
 public class Variaveis1 {
 
-	public static void main(StringTexto[] args) {
+	public static void main(String[] args) {
 
 		String nome;
 		int idade;
