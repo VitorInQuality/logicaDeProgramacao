@@ -4,7 +4,7 @@ public class If {
 
 	public static void main(String[] args) {
 
-		int minhaIdade = 10;
+		int minhaIdade = 18;
 		int idadePermitida = 18;
 
 		if (minhaIdade >= idadePermitida) {

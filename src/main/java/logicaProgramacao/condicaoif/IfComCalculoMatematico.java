@@ -4,7 +4,7 @@ public class IfComCalculoMatematico {
 
 	public static void main(String[] args) {
 
-		String nome = "Thays Rodrigues";
+		String nome = "Vitor Rodrigues";
 		double mediaPassar = 7;
 		double nota1 = 10.0;
 		double nota2 = 8.5 ;

@@ -77,3 +77,59 @@
 <p align="left">Em Java, o tipo de variável usado para armazenar valores booleanos é boolean. Aqui estão os principais pontos sobre o tipo boolean:<br><br>1. Tipo boolean<br><br>• Tipo de Dado: boolean<br>• Valores: Pode armazenar apenas dois valores: true ou false.<br>• Tamanho: Não há uma especificação de tamanho fixo, mas é otimizado para armazenar um único bit de informação.<br><br>Obs: contém exemplos no projeto. Está no pacote **logicaProgramacao.variaveis;**</p>
 
 ###
+
+<h2 align="left">Atribuir valor as Variáveis</h2>
+
+###
+
+<p align="left">Em Java, atribuir valor a uma variável envolve duas etapas principais: declarar a variável e, em seguida, atribuir um valor a ela. A declaração define o tipo e o nome da variável, enquanto a atribuição define o valor que a variável armazenará. É possível declarar e atribuir valores em uma única linha ou separadamente.<br><br>Obs: contém exemplos no projeto. Está no pacote **logicaProgramacao.variaveis;**</p>
+
+###
+
+<h2 align="left">Condição IF</h2>
+
+###
+
+<p align="left">O if em Java executa um bloco de código se uma condição for verdadeira. Com o else, você pode executar um código diferente se a condição for falsa. Em outras palavras, é um jeito de dizer "SE... SENÃO" em programação.<br><br>Estrutura Básica<br><br>if (condição) {<br><br>    // Código executado se a condição for verdadeira<br><br>}<br> else {<br><br>    // Código executado se a condição for falsa<br><br>}<br><br>Obs: contém exemplos no projeto. Está no pacote **logicaProgramacao.condicaoif;**</p>
+
+###
+
+<h2 align="left">Condição IF com cálculo matemático</h2>
+
+###
+
+<p align="left">Você pode usar o IF em Java para realizar cálculos matemáticos dentro das condições. Isso permite executar diferentes blocos de código baseados nos resultados de cálculos.<br><br>1. Aritmética Básica<br><br>• Soma: a + b<br>• Subtração: a - b<br>• Multiplicação: a * b<br>• Divisão: a / b<br><br>2. Operações Relacionais<br><br>• Maior que: a > b<br>• Menor que: a < b<br>• Maior ou igual a: a >= b<br>• Menor ou igual a: a <= b<br>• Igual a: a == b<br>• Diferença: a != b<br><br>Obs: contém exemplos no projeto. Está no pacote **logicaProgramacao.condicaoif;** e **logicaProgramacao.sinais;**</p>
+
+###
+
+<h2 align="left">Condição IF com Pipe ||</h2>
+
+###
+
+<p align="left">Em Java, você pode usar o operador lógico "ou" (||), que é conhecido como "pipe" ou "pipe duplo" em alguns contextos. Esse operador permite que você verifique se pelo menos uma das várias condições é verdadeira.<br><br>• Operador || (Pipe Duplo)<br><br>O operador || é usado para combinar duas ou mais condições. O bloco de código dentro do if será executado se pelo menos uma das condições for verdadeira.<br><br>• Estrutura Básica<br><br>if (condição1 || condição2) {<br>    // Código executado se pelo menos uma das condições for verdadeira<br>}<br><br>Obs: contém exemplos no projeto. Está no pacote **logicaProgramacao.condicaoif;**</p>
+
+###
+
+<h2 align="left">Condição IF com E comercial &&</h2>
+
+###
+
+<p align="left">Em Java, o operador lógico && é usado para combinar várias condições, e o bloco de código dentro do if será executado somente se todas as condições forem verdadeiras. O && é conhecido como o operador "E" lógico.<br><br>•  Operador && (E Lógico)<br><br>O operador && permite que você verifique se todas as condições em uma expressão são verdadeiras.<br><br>• Estrutura Básica<br><br>if (condição1 && condição2) {<br>    // Código executado se todas as condições forem verdadeiras<br>}<br><br>Obs: contém exemplos no projeto. Está no pacote **logicaProgramacao.condicaoif;**</p>
+
+###
+
+<h2 align="left">Condição IF Aninhado</h2>
+
+###
+
+<p align="left">Um if aninhado é uma estrutura condicional onde um if é colocado dentro de outro if. Isso permite fazer verificações adicionais dentro de uma condição já existente, criando uma hierarquia de decisões. Em outras palavras, você pode testar uma segunda condição apenas se a primeira for verdadeira.<br><br>• Exemplo Básico<br><br>if (condição1) {<br>    // Código executado se condição1 for verdadeira<br><br>    if (condição2) {<br>        // Código executado se condição1 e condição2 forem verdadeiras<br>    }<br>}<br><br>Obs: contém exemplos no projeto. Está no pacote **logicaProgramacao.condicaoif;**</p>
+
+###
+
+<h2 align="left">Condição IF com Else IF</h2>
+
+###
+
+<p align="left">A estrutura condicional if com else if em Java permite testar múltiplas condições em sequência e executar blocos de código diferentes com base na primeira condição verdadeira. Se a primeira condição if não for verdadeira, o programa verifica as condições subsequentes no else if. Se nenhuma das condições if ou else if for verdadeira, o bloco else (se presente) é executado.<br><br>• Definição<br><br>• if: Testa uma condição inicial. Se for verdadeira, o bloco de código associado é executado.<br>• else if: Testa uma condição adicional se a condição if for falsa. Pode haver múltiplos blocos else if.<br>• else: Executa um bloco de código se todas as condições anteriores forem falsas.<br><br>• Estrutura Básica<br><br>if (condição1) {<br>    // Código executado se a condição1 for verdadeira<br>} else if (condição2) {<br>    // Código executado se a condição1 for falsa e a condição2 for verdadeira<br>} else if (condição3) {<br>    // Código executado se as condições anteriores forem falsas e a condição3 for verdadeira<br>} else {<br>    // Código executado se todas as condições anteriores forem falsas<br>}<br><br>Obs: contém exemplos no projeto. Está no pacote **logicaProgramacao.condicaoif;**</p>
+
+###

@@ -12,25 +12,25 @@ public class IfComElseIf {
 		System.out.println("****************************************************");
 		System.out.println("***************** E2E TREINAMENTOS *****************");
 		System.out.println("****************************************************\n");
-		
+
 		if (dinheiro) {
 
 			int desconto = 600;
-			//preco = preco - desconto;
+			// preco = preco - desconto;
 			preco -= desconto;
 			System.out.println("Parabéns você comprou o carro no valor de R$ " + preco);
 
 		} else if (credito) {
-			
+
 			int juros = 1500;
-			//preco = preco + juros;
+			// preco = preco + juros;
 			preco += juros;
 			System.out.println("Parabéns você comprou o carro no valor de R$ " + preco);
 
 		} else if (boleto) {
-			
+
 			int juros = 3000;
-			//preco = preco + juros;
+			// preco = preco + juros;
 			preco += juros;
 			System.out.println("Parabéns você comprou o carro no valor de R$ " + preco);
 
